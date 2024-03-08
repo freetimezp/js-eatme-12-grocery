@@ -19,7 +19,8 @@ const AppBanner = () => {
                     sm:items-center rounded-xl'>
                     <div>
                         <div className='space-y-6 max-w-xl mx-auto'>
-                            <h1 className='text-2xl text-center sm:text-4xl font-semibold'>
+                            <h1 data-aos="fade-up"
+                                className='text-2xl text-center sm:text-4xl font-semibold'>
                                 Download the App
                             </h1>
                             <p
@@ -31,7 +32,8 @@ const AppBanner = () => {
                                 Repellat dolorum molestias ad. Magnam, earum.
                             </p>
 
-                            <div className='flex justify-center items-center gap-4'>
+                            <div data-aos="fade-up" data-oas-delay="500"
+                                className='flex justify-center items-center gap-4'>
                                 <a href="#">
                                     <img src={PlayStoreImg} alt="play market"
                                         className='max-w-[150px] sm:max-w-[120px] md:max-w-[200px]' />

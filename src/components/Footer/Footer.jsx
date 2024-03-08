@@ -6,8 +6,9 @@ const Footer = () => {
         text-white">
             <div className="container">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-                    <div className="space-y-6">
-                        <h1 className="text-4xl font-bold">
+                    <div data-aos="fade-down" className="space-y-6">
+                        <h1
+                            className="text-4xl font-bold">
                             Orange Mint
                         </h1>
                         <p className="text-sm max-w-[300px]">
@@ -17,7 +18,7 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    <div className="space-y-6">
+                    <div data-aos="fade-down" data-aos-delay="300" className="space-y-6">
                         <h1 className="text-4xl font-bold">
                             Quick Links
                         </h1>
@@ -43,7 +44,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="space-y-6">
+                    <div data-aos="fade-down" data-aos-delay="500" className="space-y-6">
                         <h1 className="text-4xl font-bold">
                             Follow Us
                         </h1>

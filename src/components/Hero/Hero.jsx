@@ -21,22 +21,31 @@ const Hero = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center
                         min-h-[650px]">
                         <div className="text-white mt-[100px] md:mt-0 p-4 space-y-4">
-                            <h1 className="text-3xl pl-6 md:pl-14">
+                            <h1
+                                data-aos="fade-up"
+                                className="text-3xl pl-6 md:pl-14"
+                            >
                                 01________
                             </h1>
-                            <h1 className="text-5xl font-bold uppercase text-shadow">
+                            <h1
+                                data-aos="fade-up" data-aos-delay="300"
+                                className="text-5xl font-bold uppercase text-shadow">
                                 A Healthy Fruit
                             </h1>
-                            <p className="text-sm">
+                            <p
+                                data-aos="fade-up" data-aos-delay="500"
+                                className="text-sm">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Labore, voluptatem est. Tempore, voluptas praesentium.
                             </p>
-                            <button className="secondary-btn">
+                            <button
+                                data-aos="fade-up" data-aos-delay="700" data-aos-offset="0"
+                                className="secondary-btn">
                                 Shop Now
                             </button>
                         </div>
 
-                        <div>
+                        <div data-aos="zoom-in">
                             <img src={heroImg} alt="home" className='relative z-10 w-[400px] 
                                 img-shadow' />
                         </div>
@@ -45,7 +54,8 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <h1 className='large-text'>
+                <h1 data-aos="fade" data-aos-delay="600" data-aos-duration="2200"
+                    className='large-text'>
                     Orange
                 </h1>
 
