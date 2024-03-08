@@ -1,9 +1,26 @@
+/* eslint-disable react/prop-types */
+import { GiHamburgerMenu } from 'react-icons/gi';
 
-
-const Navbar = () => {
+const Navbar = ({ sidebar, setSidebar }) => {
     return (
-        <div>
-            Navbar
+        <div className='absolute top-0 left-0 w-full py-2 text-white z-20'>
+            <div className="container">
+                <div className="flex justify-between items-center">
+                    <h1 className="text-4xl font-bold uppercase">
+                        Orange <span className="font-normal text-2xl">Mint</span>
+                    </h1>
+
+                    <ul className="lg:flex hidden space-x-4 text-xl">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Where to Buy</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                    <div onClick={() => setSidebar(!sidebar)}>
+                        <GiHamburgerMenu className='text-3xl cursor-pointer' />
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
