@@ -31,7 +31,7 @@ const Hero = () => {
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Labore, voluptatem est. Tempore, voluptas praesentium.
                             </p>
-                            <button className="primary-btn">
+                            <button className="secondary-btn">
                                 Shop Now
                             </button>
                         </div>
